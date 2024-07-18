@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10 px;
+    line-height: 1.2;
+    margin: 0;
+    color: #333;
+  }
+  
+  main {
+    background-color: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 25px auto 5px auto;
+  }
+  
+  p {
+    font-size: inherit;
+    text-align: center;
+    margin: 0 auto 20px auto;
+  }
+  
+  #img-div {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    margin: 0 auto 0 auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin-bottom: 7px;
+    line-height: 1.5;
+  }
+  
+  #tribute-info {
+    margin: 0 auto;
+  }
+  
+  h3 {
+    text-align: center;
+    margin: 50px auto 40px auto;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-left: 10px;
+    text-align: left;
+  }
+  
+  ul li {
+    line-height: 1.7;
+    margin: 15px 0;
+  }
+  
+  .first-li {
+    margin-top: 0;
+  }
+  
+  blockquote p {
+    margin: 50px auto;
+    font-style: italic;
+    max-width: 550px;
+    text-align: left;
+    line-height: 1.7;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  @media (max-width: 460px) {
+      h1 {
+          font-size: 20px;
+      }
+  
+      p {
+          margin-top: 20px;
+      }
+  
+      #img-caption {
+          margin: 0;
+          padding-top: 10px;
+      }
+  
+      h3 {
+          margin: 30px auto;
+      }
+  }
